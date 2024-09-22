@@ -1,0 +1,78 @@
+HTML TAG
+===========
+1. Paragraf
+2. Heading
+	- heading 1
+	- heading 2
+	- heading 3
+	- heading 4
+	- heading 5
+	- heading 6
+3. List
+	a) Unordered List (List tidak berurutan)
+	b) Ordered List (List berurutan)
+		- ABJAD
+		- abjad
+		- Number
+		- Romawi
+		- romawi
+4. Gambar
+	atribut :
+		- src=""
+		- alt=""
+
+5. Inline Formaating Text:
+	a) Long Question	<blockquote>		= biasa digunakan untuk konten yg bersifat sebuah kutipan
+	b) Preformatted Text	<pre>			= digunakkan untukk menampilkan konten sesuai apa yang ditulis tanpa mengilangkan spasi ataupun enter
+	c) Figure 		<figure> | <figcaption>	= digunaakan untuk merepresentasikan konten tersendiri
+	d) Anchor 		<a>			= digunakan untuk membuat sebuah hyperlink ke suatu halaman atau website lain
+		- atribut wejib ada : href="alamat link yg ingin dituju"
+	e) Emphasized Text	<em>			= digunakan untuk menunjukan bagian kata yang perlu ditekankan, kata yg ditekan akan miring.
+	f) Importaant Text	<strong>		= digunakan untuk menunjukan sebuah teks bahwa kata/kalimat tersebut penting, biasanya akan berjetak tebal.
+	g) Short Quations	<q>			= untuk menandai sebuah kupitan pada sebuah text.standarnya kalimat akan tampil dalam tanda kutip
+	h) Citation 		<cite>			= selain sebagai sebuah atribut, <cite> juga merupakan seubah element yang digunakan untuk sebuah rusujuakn pada sebuah dokumen
+	i) Defiining Terms	<dfn>			= 
+	j) Subscript dan Superscript	<sub>|<sup>	= biasa digunakan untuk membuat teks menjadi tampilan kecil, seperti menunjukan seubah rumus kimia atau matematika
+	k) highlighted Text	<mark>			= digunakan untuk menandai/menyorot(mewarnai) seeuah teks.
+	l) Line Break		<br>			= untuk menambahkan baris baru
+
+6. Semantic HTML:
+	a) Header
+	b) nav
+	c) main
+	d) article
+	e) section
+	f) aside
+	g) footer
+	
+7. Generic Element:
+	a) Div
+	b) span
+	
+8. Table | struktur penulisan :
+	<table>
+		<tr> //table row (baris) ke-1
+			// table header
+			<th>Tahun</th>
+			<th>Juara 1</th>
+			<th>Juara 2</th>
+			<th>Juara 3</th>
+		</tr>
+		<tr> // table row ke-2
+			<td>2020<td>
+			<td>....</td>
+			<td>....</td>
+			<td>....</td>
+		</tr>
+		
+		// dan seterusnya
+	</table>
+	
+	-ATRIBUT :
+		- colspan="jumlah yg ingin direntangkan/satukan samping"
+		- rowspan="jumlah yang ingin direntangkan/satukan kebawah"
+		- border
+
+9. Input User
+
+
